@@ -1,23 +1,36 @@
 PODS:
   - Flutter (1.0.0)
+  - Instabug (14.1.0)
+  - instabug_flutter (14.0.0):
+    - Flutter
+    - Instabug (= 14.1.0)
   - path_provider_foundation (0.0.1):
     - Flutter
     - FlutterMacOS
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
+  - instabug_flutter (from `.symlinks/plugins/instabug_flutter/ios`)
   - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - Instabug
 
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
+  instabug_flutter:
+    :path: ".symlinks/plugins/instabug_flutter/ios"
   path_provider_foundation:
     :path: ".symlinks/plugins/path_provider_foundation/darwin"
 
 SPEC CHECKSUMS:
   Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  Instabug: 8cbca8974168c815658133e2813f5ac3a36f8e20
+  instabug_flutter: a24751dfaedd29475da2af062d3e19d697438f72
   path_provider_foundation: 29f094ae23ebbca9d3d0cec13889cd9060c0e943
 
 PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
 
-COCOAPODS: 1.14.3
+COCOAPODS: 1.16.2
